@@ -16,6 +16,6 @@ height = int(height)
 
 #prints out the double half-pyramid  
 for i in range(1, height + 1):
-    block = ("#" * i) + 2*" " + ("#" * i)
+    block = ("#" * i) + (2 * " ") + ("#" * i)
     space = " " * (height - (i))
     print(space + block)
